@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap");
+* {
+  font-family: "Montserrat";
+}
+.hero {
+  background-image: url("../download.jpg");
+  height: 32em;
+  border-radius: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -38px;
+
+  background-size: 100%;
+  background-position: 0rem 13rem;
+}
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.hero h6 {
+  position: relative;
+  top: 21em;
+  font-size: 20px;
+  padding: 0.4em;
+  color: rgb(255, 255, 255);
+}
+.hero p {
+  position: relative;
+  top: 25em;
+  font-size: 15px;
+  color: aliceblue;
+  padding: 0.4em;
+}
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(75, 75, 75);
+}
+nav div {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+nav div:hover {
+  padding: 10px;
+  background-color: rgb(200, 250, 252);
+  border-radius: 20px;
+}
+
+.info span {
+  font-size: 2.5rem;
+  position: relative;
+  top: 17px;
+}
+.time {
+  background-color: aqua;
+  z-index: 1;
+}
+.place {
+  background-color: aqua;
+}
+button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 40px;
+  background-color: rgb(137, 255, 255);
+  padding-left: 5em;
+  color: white;
+  transition: all 0.3s;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+.description p {
+  padding: 1.5em;
+  padding-bottom: 2em;
+  align-content: center;
+}
+.btn a {
+  position: relative;
+  left: -2em;
+}
+.icon {
+  padding-left: 1em;
+  position: relative;
+  top: 5px;
+}
+button:hover {
+  background-color: rgb(121, 226, 226);
+  color: white;
+}
+button:active {
+  background-color: rgb(61, 225, 236);
+  color: white;
+}
