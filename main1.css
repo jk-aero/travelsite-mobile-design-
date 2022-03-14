@@ -3,7 +3,7 @@
   font-family: "Montserrat";
 }
 .hero {
-  background-image: url("../download.jpg");
+  background-image: url("download.jpg");
   height: 32em;
   border-radius: 30px;
   margin-left: 5px;
